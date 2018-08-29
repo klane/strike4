@@ -1,6 +1,6 @@
 # R files
 .Rproj.user/
-packrat/
+packrat/lib*/
+packrat/src/
 .Rhistory
-.Rprofile
 *.Rproj
