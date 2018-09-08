@@ -3,7 +3,181 @@ PackratVersion: 0.4.9.3
 RVersion: 3.5.1
 Repos: CRAN=https://cran.rstudio.com/
 
+Package: MASS
+Source: CRAN
+Version: 7.3-50
+Hash: e8001243da35880bd81391d80eb4eeae
+
+Package: Matrix
+Source: CRAN
+Version: 1.2-14
+Hash: 521aa8772a1941dfdb007bf532d19dde
+Requires: lattice
+
+Package: R6
+Source: CRAN
+Version: 2.2.2
+
+Package: RColorBrewer
+Source: CRAN
+Version: 1.1-2
+
+Package: RCurl
+Source: CRAN
+Version: 1.95-4.11
+Requires: bitops
+
+Package: Rcpp
+Source: CRAN
+Version: 0.12.18
+
+Package: XML
+Source: CRAN
+Version: 3.98-1.16
+
+Package: XML2R
+Source: CRAN
+Version: 0.0.6
+Requires: RCurl, XML, plyr
+
+Package: assertthat
+Source: CRAN
+Version: 0.2.0
+
+Package: bitops
+Source: CRAN
+Version: 1.0-6
+
+Package: cli
+Source: CRAN
+Version: 1.0.0
+Requires: assertthat, crayon
+
+Package: colorspace
+Source: CRAN
+Version: 1.3-2
+
+Package: crayon
+Source: CRAN
+Version: 1.3.4
+
+Package: digest
+Source: CRAN
+Version: 0.6.16
+
+Package: fansi
+Source: CRAN
+Version: 0.3.0
+
+Package: ggplot2
+Source: CRAN
+Version: 3.0.0
+Requires: MASS, mgcv, digest, gtable, lazyeval, plyr, reshape2, rlang,
+    scales, tibble, viridisLite, withr
+
+Package: glue
+Source: CRAN
+Version: 1.3.0
+
+Package: gtable
+Source: CRAN
+Version: 0.2.0
+
+Package: hexbin
+Source: CRAN
+Version: 1.27.2
+Requires: lattice
+
+Package: labeling
+Source: CRAN
+Version: 0.3
+
+Package: lattice
+Source: CRAN
+Version: 0.20-35
+Hash: 26b9d7f0d0cb4e1d1bbb97f867c82d89
+
+Package: lazyeval
+Source: CRAN
+Version: 0.2.1
+
+Package: magrittr
+Source: CRAN
+Version: 1.5
+
+Package: mgcv
+Source: CRAN
+Version: 1.8-24
+Hash: a56dfc15ea064de70627f483af3bfa6f
+Requires: Matrix, nlme
+
+Package: munsell
+Source: CRAN
+Version: 0.5.0
+Requires: colorspace
+
+Package: nlme
+Source: CRAN
+Version: 3.1-137
+Hash: 6166071071587a867cbe534e84fc5c0c
+Requires: lattice
+
 Package: packrat
 Source: CRAN
 Version: 0.4.9-3
 Hash: 03fb817297975f1da0d1b774b47620b3
+
+Package: pillar
+Source: CRAN
+Version: 1.3.0
+Requires: cli, crayon, fansi, rlang, utf8
+
+Package: pitchRx
+Source: CRAN
+Version: 1.8.2
+Requires: MASS, mgcv, XML2R, ggplot2, hexbin, plyr
+
+Package: plyr
+Source: CRAN
+Version: 1.8.4
+Requires: Rcpp
+
+Package: reshape2
+Source: CRAN
+Version: 1.4.3
+Requires: Rcpp, plyr, stringr
+
+Package: rlang
+Source: CRAN
+Version: 0.2.2
+
+Package: scales
+Source: CRAN
+Version: 1.0.0
+Requires: R6, RColorBrewer, Rcpp, labeling, munsell, viridisLite
+
+Package: stringi
+Source: CRAN
+Version: 1.2.4
+
+Package: stringr
+Source: CRAN
+Version: 1.3.1
+Requires: glue, magrittr, stringi
+
+Package: tibble
+Source: CRAN
+Version: 1.4.2
+Requires: cli, crayon, pillar, rlang
+
+Package: utf8
+Source: CRAN
+Version: 1.1.4
+
+Package: viridisLite
+Source: CRAN
+Version: 0.3.0
+
+Package: withr
+Source: CRAN
+Version: 2.1.2
